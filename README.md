@@ -1,4 +1,3 @@
-# suwandi.github.io
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,9 +49,9 @@
         <h1>Biodata Pribadi</h1>
         <img src="https://via.placeholder.com/150" alt="Avatar" class="avatar">
         <p class="info"><strong>Nama:</strong> Suwandi</p>
-        <p class="info"><strong>Email:</strong> suwandi@example.com</p>
-        <p class="info"><strong>Nomor Telepon:</strong> +62 123-456-789</p>
-        <p class="info"><strong>Alamat:</strong> Jalan Mawar No. 123, Jakarta, Indonesia</p>
+        <p class="info"><strong>Email:</strong> suwandi@live</p>
+        <p class="info"><strong>Nomor Telepon:</strong> +62 816 888 906</p>
+        <p class="info"><strong>Alamat:</strong> Jakarta, Indonesia</p>
         <div class="social-icons">
             <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
             <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
