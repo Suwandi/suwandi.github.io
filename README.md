@@ -2,10 +2,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata Pribadi</title>
+    <title>Biodata Natal</title>
     <style>
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #f0f8ff;
             color: #333;
             text-align: center;
@@ -20,43 +20,60 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
+            color: #ff6347;
             font-size: 2.5em;
-            color: #ff6347;
         }
-        .info {
-            font-size: 1.2em;
-            margin: 10px 0;
+        .biodata {
+            margin: 20px 0;
         }
-        .avatar {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
+        .note {
+            background-color: #faf2cc;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
         }
-        .social-icons a {
-            margin: 0 10px;
-            color: #ff6347;
-            text-decoration: none;
-            font-size: 1.5em;
+        .footer {
+            margin-top: 20px;
         }
-        .social-icons a:hover {
-            color: #e55339;
+        .christmas-theme {
+            margin: 20px 0;
+        }
+        .social {
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Biodata Pribadi</h1>
-        <img src="https://via.placeholder.com/150" alt="Avatar" class="avatar">
-        <p class="info"><strong>Nama:</strong> Suwandi</p>
-        <p class="info"><strong>Email:</strong> suwandi@live.com</p>
-        <p class="info"><strong>Nomor Telepon:</strong> +62 816 888 906</p>
-        <p class="info"><strong>Alamat:</strong> Jakarta, Indonesia</p>
-        <div class="social-icons">
-            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <div class="christmas-theme">
+            <h1>🎄 Selamat Natal! 🎄</h1>
+        </div>
+        <div class="biodata">
+            <p><strong>Nama:</strong> Suwandi</p>
+            <p><strong>Email:</strong> suwandi@live.com</p>
+            <p><strong>Nomor Telepon:</strong> +62816888906</p>
+        </div>
+        <div class="note">
+            <h2>Catatan Harian:</h2>
+            <p id="daily-note">Hari ini sangat menyenangkan! 🎅</p>
+        </div>
+        <div class="social">
+            <h2>Bluesky Posts</h2>
+            <p>Follow me on Bluesky: @suwandi.id</p>
         </div>
     </div>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <div class="footer">
+        <p>&copy; 2024 Suwandi's Natal Biodata</p>
+    </div>
+    <script>
+        // Script to update the daily note
+        function updateNote() {
+            let note = prompt("Masukkan catatan harian baru:");
+            if (note) {
+                document.getElementById('daily-note').innerText = note;
+            }
+        }
+        document.getElementById('daily-note').addEventListener('click', updateNote);
+    </script>
 </body>
 </html>
