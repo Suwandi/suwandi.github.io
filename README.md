@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Suwandi's Business Card</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -37,6 +37,12 @@
         .card a:hover {
             text-decoration: underline;
         }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #999;
+        }
     </style>
 </head>
 <body>
@@ -45,5 +51,8 @@
         <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
         <p>E-mail: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
     </div>
+    <footer>
+        <p>&copy; 2024 suwandi.id</p>
+    </footer>
 </body>
 </html>
