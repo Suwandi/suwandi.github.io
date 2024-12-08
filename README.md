@@ -2,12 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suwandi Page</title>
+    <title>Biodata Suwandi</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #2c3e50;
-            color: #ecf0f1;
+            background-color: #808080;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
             margin: 0;
             padding: 0;
             display: flex;
@@ -17,59 +18,73 @@
             min-height: 100vh;
         }
         .container {
-            background-color: #34495e;
             padding: 20px;
+            background-color: #404040;
             border-radius: 10px;
-            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
             width: 90%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
         }
-        h1 {
-            color: #e74c3c;
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
             margin-bottom: 20px;
         }
-        .biodata p {
-            margin: 10px 0;
+        .info {
+            margin: 20px 0;
         }
-        .note {
-            background-color: #95a5a6;
+        .info p {
+            margin: 5px 0;
+        }
+        .notes {
+            background-color: #606060;
             padding: 10px;
             border-radius: 5px;
             margin: 20px 0;
             text-align: left;
         }
+        .social-media {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #606060;
+            border-radius: 5px;
+        }
+        .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .social-media a:hover {
+            text-decoration: underline;
+        }
         .footer {
             margin-top: 20px;
-            color: #7f8c8d;
+            color: #aaaaaa;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Biodata Suwandi</h1>
-        <div class="biodata">
+        <img src="https://via.placeholder.com/100" alt="Profile Picture" class="profile-pic">
+        <div class="info">
             <p><strong>Nama:</strong> Suwandi</p>
             <p><strong>Email:</strong> suwandi@live.com</p>
-            <p><strong>Phone:</strong> +62816888906</p>
+            <p><strong>Nomor Telepon:</strong> +62816888906</p>
         </div>
-        <div class="note">
-            <h2>Notes</h2>
-            <p id="daily-note">Baru mengenal github 🎅</p>
+        <div class="notes">
+            <h3>Catatan Harian</h3>
+            <textarea rows="5" cols="30" placeholder="Tulis catatan harianmu di sini..."></textarea>
+        </div>
+        <div class="social-media">
+            <h3>Link Sosial Media</h3>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
         </div>
     </div>
     <div class="footer">
-        <p>&copy; 2024 Suwandi.id</p>
+        <p>&copy; 2024 Suwandi's Biodata</p>
     </div>
-    <script>
-        // Script untuk mengupdate catatan harian
-        function updateNote() {
-            let note = prompt("Masukkan catatan harian baru:");
-            if (note) {
-                document.getElementById('daily-note').innerText = note;
-            }
-        }
-        document.getElementById('daily-note').addEventListener('click', updateNote);
-    </script>
 </body>
 </html>
