@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,7 +48,7 @@
         <h1>Biodata Pribadi</h1>
         <img src="https://via.placeholder.com/150" alt="Avatar" class="avatar">
         <p class="info"><strong>Nama:</strong> Suwandi</p>
-        <p class="info"><strong>Email:</strong> suwandi@live</p>
+        <p class="info"><strong>Email:</strong> suwandi@live.com</p>
         <p class="info"><strong>Nomor Telepon:</strong> +62 816 888 906</p>
         <p class="info"><strong>Alamat:</strong> Jakarta, Indonesia</p>
         <div class="social-icons">
