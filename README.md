@@ -5,9 +5,9 @@
     <title>Biodata Suwandi</title>
     <style>
         body {
-            background-color: #808080;
+            background-color: #2c3e50;
             font-family: Arial, sans-serif;
-            color: white;
+            color: #ecf0f1;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -19,7 +19,7 @@
         }
         .container {
             padding: 20px;
-            background-color: #404040;
+            background-color: #34495e;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             max-width: 400px;
@@ -51,7 +51,7 @@
             border-radius: 5px;
         }
         .social-media a {
-            color: white;
+            color: #ecf0f1;
             text-decoration: none;
             margin: 0 10px;
         }
@@ -60,7 +60,15 @@
         }
         .footer {
             margin-top: 20px;
-            color: #aaaaaa;
+            color: #7f8c8d;
+        }
+        textarea {
+            width: 100%;
+            border: none;
+            padding: 10px;
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -68,13 +76,13 @@
     <div class="container">
         <img src="https://via.placeholder.com/100" alt="Profile Picture" class="profile-pic">
         <div class="info">
-            <p><strong>Nama:</strong> Suwandi</p>
-            <p><strong>Email:</strong> suwandi@live.com</p>
-            <p><strong>Nomor Telepon:</strong> +62816888906</p>
+            <p><strong>Name:</strong> Suwandi</p>
+            <p><strong>E-mail:</strong> suwandi@live.com</p>
+            <p><strong>Phone:</strong> +62816888906</p>
         </div>
         <div class="notes">
-            <h3>Catatan Harian</h3>
-            <textarea rows="5" cols="30" placeholder="Tulis catatan harianmu di sini..."></textarea>
+            <h3>Notes:</h3>
+            <textarea rows="5" placeholder="Tulis catatan harianmu di sini..."></textarea>
         </div>
         <div class="social-media">
             <h3>Link Sosial Media</h3>
@@ -84,7 +92,7 @@
         </div>
     </div>
     <div class="footer">
-        <p>&copy; 2024 Suwandi's Biodata</p>
+        <p>&copy; 2024 suwandi.id</p>
     </div>
 </body>
 </html>
