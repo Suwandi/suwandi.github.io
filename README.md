@@ -1,51 +1,49 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suwandi's Business Card</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            max-width: 350px;
-            width: 100%;
-            padding: 20px;
-            text-align: center;
-        }
-        .card h1 {
-            margin: 0;
-            color: #333;
-        }
-        .card p {
-            color: #555;
-            margin: 10px 0;
-        }
-        .card a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        .card a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.8em;
-            color: #999;
-        }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h1>Suwandi</h1>
-        <p>Phone: <a href="tel:+62816888906">+628
+<div class="container mt-5">
+    
+    <div class="row d-flex justify-content-center">
+        
+        <div class="col-md-7">
+            
+            <div class="card p-3 py-4">
+                
+                <div class="text-center">
+                    <img src="https://i.imgur.com/bDLhJiP.jpg" width="100" class="rounded-circle">
+                </div>
+                
+                <div class="text-center mt-3">
+                    <span class="bg-secondary p-1 px-4 rounded text-white">Pro</span>
+                    <h5 class="mt-2 mb-0">Alexender Schidmt</h5>
+                    <span>UI/UX Designer</span>
+                    
+                    <div class="px-4 mt-1">
+                        <p class="fonts">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    
+                    </div>
+                    
+                     <ul class="social-list">
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-dribbble"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                        <li><i class="fa fa-linkedin"></i></li>
+                        <li><i class="fa fa-google"></i></li>
+                    </ul>
+                    
+                    <div class="buttons">
+                        
+                        <button class="btn btn-outline-primary px-4">Message</button>
+                        <button class="btn btn-primary px-4 ms-3">Contact</button>
+                    </div>
+                    
+                    
+                </div>
+                
+               
+                
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div>
