@@ -48,11 +48,4 @@
 <body>
     <div class="card">
         <h1>Suwandi</h1>
-        <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
-        <p>E-mail: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
-    </div>
-    <footer>
-        <p>&copy; 2024 suwandi.id</p>
-    </footer>
-</body>
-</html>
+        <p>Phone: <a href="tel:+62816888906">+628
