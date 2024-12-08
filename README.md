@@ -51,11 +51,11 @@
         <div class="biodata">
             <p><strong>Nama:</strong> Suwandi</p>
             <p><strong>Email:</strong> suwandi@live.com</p>
-            <p><strong>Nomor Telepon:</strong> +62816888906</p>
+            <p><strong>Phone:</strong> +62816888906</p>
         </div>
         <div class="note">
-            <h2>Catatan Harian</h2>
-            <p id="daily-note">Hari ini sangat menyenangkan! 🎅</p>
+            <h2>Notes</h2>
+            <p id="daily-note">Baru mengenal github 🎅</p>
         </div>
     </div>
     <div class="footer">
