@@ -2,71 +2,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata Natal</title>
+    <title>Biodata Suwandi</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f8ff;
-            color: #333;
-            text-align: center;
-            padding: 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
         .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #fff;
+            background-color: #34495e;
             padding: 20px;
             border-radius: 10px;
+            max-width: 600px;
+            width: 90%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         h1 {
-            color: #ff6347;
-            font-size: 2.5em;
+            color: #e74c3c;
+            margin-bottom: 20px;
         }
-        .biodata {
-            margin: 20px 0;
+        .biodata p {
+            margin: 10px 0;
         }
         .note {
-            background-color: #faf2cc;
+            background-color: #95a5a6;
             padding: 10px;
             border-radius: 5px;
             margin: 20px 0;
+            text-align: left;
         }
         .footer {
             margin-top: 20px;
-        }
-        .christmas-theme {
-            margin: 20px 0;
-        }
-        .social {
-            margin-top: 20px;
+            color: #7f8c8d;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="christmas-theme">
-            <h1>🎄 Selamat Natal! 🎄</h1>
-        </div>
+        <h1>Biodata Suwandi</h1>
         <div class="biodata">
             <p><strong>Nama:</strong> Suwandi</p>
             <p><strong>Email:</strong> suwandi@live.com</p>
             <p><strong>Nomor Telepon:</strong> +62816888906</p>
         </div>
         <div class="note">
-            <h2>Catatan Harian:</h2>
+            <h2>Catatan Harian</h2>
             <p id="daily-note">Hari ini sangat menyenangkan! 🎅</p>
-        </div>
-        <div class="social">
-            <h2>Bluesky Posts</h2>
-            <p>Follow me on Bluesky: @suwandi.id</p>
         </div>
     </div>
     <div class="footer">
-        <p>&copy; 2024 Suwandi's Natal Biodata</p>
+        <p>&copy; 2024 Suwandi's Biodata</p>
     </div>
     <script>
-        // Script to update the daily note
+        // Script untuk mengupdate catatan harian
         function updateNote() {
             let note = prompt("Masukkan catatan harian baru:");
             if (note) {
