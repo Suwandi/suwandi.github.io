@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata Suwandi</title>
+    <title>Suwandi Page</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -59,7 +59,7 @@
         </div>
     </div>
     <div class="footer">
-        <p>&copy; 2024 Suwandi's Biodata</p>
+        <p>&copy; 2024 Suwandi.id</p>
     </div>
     <script>
         // Script untuk mengupdate catatan harian
