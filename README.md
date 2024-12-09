@@ -59,7 +59,7 @@
         <h1>Suwandi</h1>
         <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
         <p>Email: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
-        <p>Bluesky: <a href="https://suwandi.id" target="_blank">suwandi.id</a></p>
+        <p>GitHub: <a href="https://github.com/suwandi" target="_blank">github.com/suwandi</a></p>
     </div>
     <footer>
         <p>&copy; 2024 suwandi.id</p>
