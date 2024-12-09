@@ -1,68 +1,77 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suwandi's Profile</title>
+    <title>Kartu Nama</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #2d2d2d;
-            color: #cccccc;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
+            height: 100vh;
         }
         .card {
-            background-color: #3a3a3a;
+            background-color: white;
+            width: 350px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            max-width: 400px;
-            width: 100%;
-            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-            margin-bottom: 20px;
+            padding: 20px;
         }
-        .card img {
-            width: 150px;
-            height: 150px;
+        .profile-image {
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
-            margin-bottom: 20px;
+            border: 2px solid #4caf50;
+            margin-bottom: 15px;
         }
         .card h1 {
-            margin: 0;
-            color: #ffffff;
+            font-size: 24px;
+            margin: 10px 0;
+            color: #333;
         }
         .card p {
-            margin: 10px 0;
+            font-size: 16px;
+            margin: 5px 0;
+            color: #555;
         }
-        .card a {
-            color: #1e90ff;
+        .contact {
+            margin-top: 15px;
+        }
+        .contact a {
+            display: block;
+            color: #4caf50;
             text-decoration: none;
+            margin: 5px 0;
         }
-        .card a:hover {
-            text-decoration: underline;
-        }
-        footer {
+        .github-link {
             margin-top: 20px;
-            font-size: 0.8em;
-            color: #999999;
+            font-size: 14px;
+            color: #777;
+        }
+        .github-link a {
+            color: #007bff;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <img src="https://github.com/suwandi.png" alt="GitHub Profile Picture">
+        <img src="https://github.com/suwandi.png" alt="Foto Profil" class="profile-image">
         <h1>Suwandi</h1>
-        <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
-        <p>Email: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
-        <p>GitHub: <a href="https://github.com/suwandi" target="_blank">github.com/suwandi</a></p>
+        <p>Web Developer & Enthusiast</p>
+        <div class="contact">
+            <p>📞 +62 816 888 906</p>
+            <p>✉ suwandi@live.com</p>
+        </div>
+        <div class="github-link">
+            <p>Lihat profil di <a href="https://github.com/suwandi" target="_blank">GitHub</a></p>
+        </div>
     </div>
-    <footer>
-        <p>&copy; 2024 suwandi.id</p>
-    </footer>
 </body>
 </html>
