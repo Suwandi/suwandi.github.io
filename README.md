@@ -10,9 +10,17 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 20px;
+            text-align: center;
         }
         .card {
             background-color: white;
@@ -30,7 +38,9 @@
             margin-bottom: 15px;
         }
         .card h1 {
-            display: none; /* Menyembunyikan nama Suwandi di bagian atas */
+            font-size: 20px;
+            margin: 10px 0;
+            color: #333;
         }
         .card p {
             font-size: 16px;
@@ -58,17 +68,14 @@
     </style>
 </head>
 <body>
+    <div class="title">Suwandi</div>
     <div class="card">
         <img src="https://github.com/suwandi.png" alt="Foto Profil" class="profile-image">
-        <h1>Suwandi</h1> <!-- Elemen ini disembunyikan dengan CSS -->
+        <h1>Suwandi</h1>
         <p>Web Developer & Enthusiast</p>
         <div class="contact">
             <p>📞 +62 816 888 906</p>
             <p>✉ suwandi@live.com</p>
         </div>
         <div class="github-link">
-            <p>Lihat profil di <a href="https://github.com/suwandi" target="_blank">GitHub</a></p>
-        </div>
-    </div>
-</body>
-</html>
+            <p>Lihat profil di <
