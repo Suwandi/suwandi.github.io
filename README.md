@@ -30,9 +30,7 @@
             margin-bottom: 15px;
         }
         .card h1 {
-            font-size: 24px;
-            margin: 10px 0;
-            color: #333;
+            display: none; /* Menyembunyikan nama Suwandi di bagian atas */
         }
         .card p {
             font-size: 16px;
@@ -62,7 +60,7 @@
 <body>
     <div class="card">
         <img src="https://github.com/suwandi.png" alt="Foto Profil" class="profile-image">
-        <h1>Suwandi</h1>
+        <h1>Suwandi</h1> <!-- Elemen ini disembunyikan dengan CSS -->
         <p>Web Developer & Enthusiast</p>
         <div class="contact">
             <p>📞 +62 816 888 906</p>
