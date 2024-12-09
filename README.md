@@ -2,80 +2,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kartu Nama</title>
+    <title>Keseharian Suwandi</title>
     <style>
+        /* Gaya global */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            height: 100vh;
+            justify-content: space-between;
+            min-height: 100vh;
         }
-        .title {
-            font-size: 24px;
-            font-weight: bold;
-            color: #007bff;
-            margin-bottom: 20px;
+
+        header {
+            width: 100%;
+            background: linear-gradient(135deg, #4caf50, #2e7d32);
+            color: white;
+            padding: 20px;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .card {
-            background-color: white;
-            width: 350px;
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .daily-activity {
+            width: 90%;
+            max-width: 600px;
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            padding: 20px;
         }
-        .profile-image {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            border: 2px solid #4caf50;
-            margin-bottom: 15px;
-        }
-        .card h1 {
+
+        .daily-activity h2 {
             font-size: 20px;
-            margin: 10px 0;
+            margin-bottom: 10px;
             color: #333;
         }
-        .card p {
+
+        .daily-activity p {
             font-size: 16px;
-            margin: 5px 0;
             color: #555;
+            line-height: 1.6;
         }
-        .contact {
-            margin-top: 15px;
+
+        footer {
+            width: 100%;
+            background: #4caf50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
         }
-        .contact a {
-            display: block;
-            color: #4caf50;
-            text-decoration: none;
+
+        footer p {
             margin: 5px 0;
-        }
-        .github-link {
-            margin-top: 20px;
             font-size: 14px;
-            color: #777;
         }
-        .github-link a {
-            color: #007bff;
+
+        footer a {
+            color: #ffd700;
             text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 20px;
+            }
+
+            .daily-activity h2 {
+                font-size: 18px;
+            }
+
+            footer p {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="title">Suwandi</div>
-    <div class="card">
-        <img src="https://github.com/suwandi.png" alt="Foto Profil" class="profile-image">
-        <h1>Suwandi</h1>
-        <p>Web Developer & Enthusiast</p>
-        <div class="contact">
-            <p>📞 +62 816 888 906</p>
-            <p>✉ suwandi@live.com</p>
-        </div>
-        <div class="github-link">
-            <p>Lihat profil di <
+    <!-- Bagian header -->
+    <header>
+        <h1>Keseharian Suwandi</h1>
+    </header>
+
+    <!-- Kegiatan hari ini -->
+    <section class="daily-activity">
+        <h2>Hari ini</h2>
+        <p>Aku di rumah aja karena hujan.</p>
+    </section>
+
+    <!-- Kontak -->
+    <footer>
+        <p>📞 Hubungi saya: +62 816 888 906</p>
+        <p>✉ Email: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
+    </footer>
+</body>
+</html>
