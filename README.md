@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suwandi's Social Profile</title>
+    <title>Social Profile</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -59,10 +59,10 @@
     <div class="profile-card">
         <img src="https://github.com/suwandi.png" alt="GitHub Profile Picture" width="100" height="100">
         <div class="profile-details">
-            <h1>@xhyon</h1>
+            <h1>@suwandi.id</h1>
             <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
             <p>Email: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
-            <p>GitHub: <a href="https://github.com/suwandi" target="_blank">github.com/suwandi</a></p>
+            <p>Bluesky: <a href="https://bsky.app/profile/suwandi.id" target="_blank">bsky.app/profile/suwandi.id</a></p>
         </div>
     </div>
 </body>
