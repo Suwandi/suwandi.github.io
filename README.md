@@ -2,68 +2,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Profile</title>
+    <title>Suwandi's Profile</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #15202b;
-            color: #ffffff;
+            background-color: #2d2d2d;
+            color: #cccccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
             margin: 0;
-            padding: 0;
-        }
-        .header {
-            background-color: #1da1f2;
-            padding: 10px 20px;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
+            padding: 20px;
         }
         .profile-card {
-            display: flex;
-            align-items: center;
-            background-color: #192734;
-            padding: 20px;
-            margin: 20px;
+            background-color: #3a3a3a;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
         }
         .profile-card img {
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
-            margin-right: 20px;
+            margin-bottom: 20px;
         }
-        .profile-details {
-            flex-grow: 1;
-        }
-        .profile-details h1 {
+        .profile-card h1 {
             margin: 0;
-            font-size: 24px;
             color: #ffffff;
         }
-        .profile-details p {
-            margin: 5px 0;
-            color: #8899a6;
+        .profile-card p {
+            margin: 10px 0;
         }
-        .profile-details a {
-            color: #1da1f2;
+        .profile-card a {
+            color: #1e90ff;
             text-decoration: none;
         }
-        .profile-details a:hover {
+        .profile-card a:hover {
             text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #999999;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        Suwandi's Social Profile
-    </div>
     <div class="profile-card">
-        <img src="https://github.com/suwandi.png" alt="GitHub Profile Picture" width="100" height="100">
-        <div class="profile-details">
-            <h1>@suwandi.id</h1>
-            <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
-            <p>Email: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
-            <p>Bluesky: <a href="https://bsky.app/profile/suwandi.id" target="_blank">bsky.app/profile/suwandi.id</a></p>
-        </div>
+        <img src="https://bsky.app/profile/suwandi.id/profile_image" alt="Bluesky Profile Picture">
+        <h1>@suwandi.id</h1>
+        <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
+        <p>Email: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
+        <p>Bluesky: <a href="https://bsky.app/profile/suwandi.id" target="_blank">bsky.app/profile/suwandi.id</a></p>
     </div>
+    <footer>
+        <p>&copy; 2024 suwandi.id</p>
+    </footer>
 </body>
 </html>
