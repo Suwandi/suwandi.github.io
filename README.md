@@ -2,28 +2,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keseharianku</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Suwandi's Social Profile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #15202b;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #1da1f2;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .profile-card {
+            display: flex;
+            align-items: center;
+            background-color: #192734;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .profile-card img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-details {
+            flex-grow: 1;
+        }
+        .profile-details h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #ffffff;
+        }
+        .profile-details p {
+            margin: 5px 0;
+            color: #8899a6;
+        }
+        .profile-details a {
+            color: #1da1f2;
+            text-decoration: none;
+        }
+        .profile-details a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Selamat Natal!</h1>
-        <p>Menyambut sukacita di musim yang penuh kehangatan ini.</p>
-    </header>
-    <section id="profile">
-        <h2>Profil</h2>
-        <p><strong>Nama:</strong> Bagas Sutha</p>
-        <p><strong>Nomor HP:</strong> +62816888906</p>
-        <p><strong>Email:</strong> suwandi@live.com</p>
-    </section>
-    <section id="keseharianku">
-        <h2>Keseharianku</h2>
-        <div id="daily-content">
-            <p>Belum ada aktivitas yang di-update.</p>
+    <div class="header">
+        Suwandi's Social Profile
+    </div>
+    <div class="profile-card">
+        <img src="https://twitter.com/xhyon/profile_image?size=original" alt="Twitter Profile Picture" width="100" height="100">
+        <div class="profile-details">
+            <h1>@xhyon</h1>
+            <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
+            <p>Email: <a href="mailto:suwandi@live.com">suwandi@live.com</a></p>
+            <p>GitHub: <a href="https://github.com/suwandi" target="_blank">github.com/suwandi</a></p>
         </div>
-    </section>
-    <footer>
-        <p>© 2024 Dibuat dengan hati oleh Bagas Sutha.</p>
-    </footer>
+    </div>
 </body>
 </html>
