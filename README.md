@@ -57,7 +57,7 @@
         Suwandi's Social Profile
     </div>
     <div class="profile-card">
-        <img src="https://twitter.com/xhyon/profile_image?size=original" alt="Twitter Profile Picture" width="100" height="100">
+        <img src="https://github.com/suwandi.png" alt="GitHub Profile Picture" width="100" height="100">
         <div class="profile-details">
             <h1>@xhyon</h1>
             <p>Phone: <a href="tel:+62816888906">+62816888906</a></p>
