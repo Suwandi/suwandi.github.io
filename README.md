@@ -29,11 +29,6 @@
             border: 2px solid #4caf50;
             margin-bottom: 15px;
         }
-        .card h1 {
-            font-size: 24px;
-            margin: 10px 0;
-            color: #333;
-        }
         .card p {
             font-size: 16px;
             margin: 5px 0;
