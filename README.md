@@ -27,12 +27,7 @@
             height: 100px;
             border-radius: 50%;
             border: 2px solid #4caf50;
-            margin-bottom: 15px;
-        }
-        .card p {
-            font-size: 16px;
-            margin: 5px 0;
-            color: #555;
+            margin-bottom: 15px;
         }
         .contact {
             margin-top: 15px;
