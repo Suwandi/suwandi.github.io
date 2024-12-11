@@ -1,7 +1,9 @@
-<html lang="">
+<!DOCTYPE html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Nama</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,7 +28,17 @@
             height: 100px;
             border-radius: 50%;
             border: 2px solid #4caf50;
-            margin-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .card h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .card p {
+            font-size: 16px;
+            margin: 5px 0;
+            color: #555;
         }
         .contact {
             margin-top: 15px;
@@ -35,13 +47,22 @@
             display: block;
             color: #4caf50;
             text-decoration: none;
-            margin: 5px 0;
+            margin: 5px 0;
+        }
+        .github-link {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+        .github-link a {
+            color: #007bff;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <img src="https://cdn.bsky.app/img/avatar/plain/did:plc:vr7psvrymdgzfujznms5fu3g/bafkreihji53csi2o3d3g4f6oelgrmw44i3oufnxzuccrsyzpb2t4crm6bu@jpeg" alt="Foto Profil" class="profile-image">
+        <img src="https://github.com/suwandi.png" alt="Foto Profil" class="profile-image">
         <h1>Suwandi</h1>
         <p>Web Developer & Enthusiast</p>
         <div class="contact">
@@ -49,7 +70,7 @@
             <p>✉ suwandi@live.com</p>
         </div>
         <div class="github-link">
-            <p>Find me on <a href="https://bsky.app/profile/suwandi.id" target="_blank">Bluesky</a></p>
+            <p>Lihat profil di <a href="https://github.com/suwandi" target="_blank">GitHub</a></p>
         </div>
     </div>
 </body>
