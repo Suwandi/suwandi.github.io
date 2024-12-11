@@ -46,16 +46,7 @@
             display: block;
             color: #4caf50;
             text-decoration: none;
-            margin: 5px 0;
-        }
-        .github-link {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #777;
-        }
-        .github-link a {
-            color: #007bff;
-            text-decoration: none;
+            margin: 5px 0;
         }
     </style>
 </head>
