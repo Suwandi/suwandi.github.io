@@ -61,7 +61,7 @@
 </head>
 <body>
     <div class="card">
-        <img src="https://github.com/suwandi.png" alt="Foto Profil" class="profile-image">
+        <img src="https://cdn.bsky.app/img/avatar/plain/did:plc:vr7psvrymdgzfujznms5fu3g/bafkreihji53csi2o3d3g4f6oelgrmw44i3oufnxzuccrsyzpb2t4crm6bu@jpeg" alt="Foto Profil" class="profile-image">
         <h1>Suwandi</h1>
         <p>Web Developer & Enthusiast</p>
         <div class="contact">
