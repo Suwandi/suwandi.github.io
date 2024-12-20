@@ -69,7 +69,7 @@
             <p>✉ suwandi@live.com</p>
         </div>
         <div class="github-link">
-            <p>@suwandi.id on <a href="https://bsky.app/profile/suwandi.id" target="_blank">Bluesky</a></p>
+            <p>Find me on <a href="https://bsky.app/profile/suwandi.id" target="_blank">Bluesky</a></p>
         </div>
     </div>
 </body>
