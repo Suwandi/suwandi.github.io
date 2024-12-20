@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -69,8 +68,8 @@
             <p>📞 +62 816 888 906</p>
             <p>✉ suwandi@live.com</p>
         </div>
-        <div class="github-link">
-            <p>Lihat profil di <a href="https://github.com/suwandi" target="_blank">GitHub</a></p>
+        <div class="Bluesky-link">
+            <p>Find me on <a href="https://bsky.app/profile/suwandi.id target="_blank">Bluesky"</a></p>
         </div>
     </div>
 </body>
